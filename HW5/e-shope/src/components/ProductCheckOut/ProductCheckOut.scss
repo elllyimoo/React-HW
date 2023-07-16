@@ -1,0 +1,51 @@
+.checkout-item-box{
+  margin: 10px 0 25px;
+  text-align: left;
+}
+
+.checkout-item-descr {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  padding-left: 10px;
+
+  &__model {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  &__color {
+    text-transform: lowercase;
+    margin-bottom: 5px;
+  }
+
+  &__quantity {
+    margin-bottom: 5px;
+  }
+
+  &__button {
+    margin: 0 8px;
+    height: 25px;
+    width: 25px;
+    position: relative;
+    top: -4px;
+  }
+
+  &__price {
+    border-left: 1px solid black;
+    padding: 0 10px;
+    margin: 10px;
+
+    &::after{
+      content: 'UAN';
+      font-size: 0.5rem;
+    }
+  }
+
+}
+
+.gray {
+  color: #8b8787;
+  padding-right: 5px;
+  font-weight: normal;
+}

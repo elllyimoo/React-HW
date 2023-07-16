@@ -1,0 +1,61 @@
+.myModal{
+    &-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    z-index: 1000;
+    background: rgba(0, 0, 0, 0.7);
+    }
+
+    &-window {
+        max-width: 500px;
+        border-radius: 5px;
+        margin: 0 auto;
+        overflow-y: auto;
+        font-weight: 200;
+        color: white;
+        transform: translateY( 200px);
+
+        &__header {
+            height: 30px;
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+
+            font-weight: bolder;
+            background: #8f08dd;
+            border-bottom: 1px solid #000000;
+        }
+
+        &__body {
+            padding: 45px 56px;
+            display: flex;
+            justify-content: center;
+            font-size: 0.9rem;
+            font-weight: bolder;
+            color: #000000;
+        }
+
+        &__footer {
+            height: 30px;
+            padding: 15px 10px;
+            display: flex;
+            justify-content: center;
+            border-top: 1px solid #8f08dd;
+        }
+    }
+
+    &-title {
+        font-size: 1.1rem;
+        text-align: left;
+    }
+
+    &-closer {
+        cursor: pointer;
+    }
+}
+
+

@@ -1,0 +1,26 @@
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+
+  background: rgba(127, 122, 127, 0.1);
+  color: #fff;
+
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 5px 0;
+    height: 30px;
+    //min-width: 577px;
+    width: 768px;
+    color: #000000;
+  }
+
+  &__bottomLine {
+    height: 10px;
+    width: 100%;
+    background: #000000;
+    border-top: #fff solid .7px;
+  }
+}

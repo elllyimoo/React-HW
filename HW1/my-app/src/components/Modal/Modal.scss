@@ -1,0 +1,54 @@
+.myModal{
+    &-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow-y: auto;
+    background: rgba(0, 0, 0, 0.7);
+    }
+
+    &-window {
+        max-width: 500px;
+        border-radius: 5px;
+        margin: 0 auto;
+        overflow-y: auto;
+        font-weight: 200;
+        color: white;
+        transform: translateY( 100px);
+
+        &__header {
+            background: rgba(0, 0, 0, .18);
+            padding: 10px;
+            display: flex;
+            justify-content: space-between;
+            border-bottom: 1px solid #d7bdbd;
+        }
+
+        &__body {
+            padding: 30px 56px;
+            display: flex;
+            justify-content: center;
+            font-size: 0.9rem;
+        }
+
+        &__footer {
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            border-top: 1px solid #d7bdbd;
+        }
+    }
+
+    &-title {
+        font-size: 1.1rem;
+        text-align: left;
+    }
+
+    &-closer {
+        cursor: pointer;
+    }
+}
+
+

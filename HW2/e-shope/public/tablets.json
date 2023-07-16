@@ -1,0 +1,74 @@
+{
+  "tablets": [
+    {
+      "model": "Apple iPad 10.2",
+      "price": 12500,
+      "product_id": 101,
+      "avatar": "./images/apple_ipad_10_2_sm.jpg",
+      "color": "Space Gray"
+    },
+    {
+      "model": "Samsung Galaxy Tab S7",
+      "price": 31000,
+      "product_id": 102,
+      "avatar": "./images/samsung_galaxy_tab_s7_sm.jpg",
+      "color": "Black"
+    },
+    {
+      "model": "Apple iPad Pro 12.9",
+      "price": 37000,
+      "product_id": 103,
+      "avatar": "./images/apple_ipad_pro_12_9_sm.jpg",
+      "color": "Silver"
+    },
+    {
+      "model": "Lenovo Yoga Smart Tab 4/64",
+      "price": 10000,
+      "product_id": 104,
+      "avatar": "./images/lenovo_yoga_smarttab_4_sm.jpg",
+      "color": "Grey"
+    },
+    {
+      "model": "PANASONIC FZ-G1 10",
+      "price": 112000,
+      "product_id": 105,
+      "avatar": "./images/panasonic_fz_g1_10_sm.jpg",
+      "color": "Black"
+    },
+    {
+      "model": "Microsoft Surface Book 2",
+      "price": 66500,
+      "product_id": 106,
+      "avatar": "./images/microsoft_surface_book_2_sm.jpg",
+      "color": "Silver"
+    },
+    {
+      "model": "Huion Kamvas GT-221Pro",
+      "price": 52000,
+      "product_id": 107,
+      "avatar": "./images/huion_kamvas_gt-221pro_sm.jpg",
+      "color": "Dark Grey"
+    },
+    {
+      "model": "PANASONIC FZ-B2 7",
+      "price": 3400,
+      "product_id": 108,
+      "avatar": "./images/panasonic_fz_b2_7_sm.jpg",
+      "color": "Black"
+    },
+    {
+      "model": "Apple iPad Air 10.9",
+      "price": 29000,
+      "product_id": 109,
+      "avatar": "./images/apple_ipad_air_10_9_sm.jpg",
+      "color": "Gold"
+    },
+    {
+      "model": "Microsoft Surface GO 2 10.5",
+      "price": 28700,
+      "product_id": 110,
+      "avatar": "./images/microsoft_surface_go_210_5_sm.jpg",
+      "color": "Silver"
+    }
+  ]
+}

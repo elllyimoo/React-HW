@@ -1,0 +1,50 @@
+.icons {
+}
+
+.star {
+  margin-right: 10px;
+
+  &:hover {
+    fill: lightgrey;
+    stroke: #ff0000;
+  }
+}
+
+.cart-del {
+  &:hover {
+    //fill:  #ff0000;
+    //stroke: #ff0000;
+  }
+}
+
+.tooltip {
+  visibility: hidden;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  color: red;
+}
+
+.cart-del.tooltip-on-hover:hover + .tooltip {
+  visibility: visible;
+  position: absolute;
+  top: -15px;
+  right: -5px;
+
+  cursor: pointer;
+
+  color: #8b8787;
+  font-size: 0.5rem;
+}
+
+.star.tooltip-on-hover:hover + .tooltip {
+  visibility: visible;
+  position: absolute;
+  top: -15px;
+  right: 35px;
+
+  cursor: pointer;
+
+  color: #8b8787;
+  font-size: 0.5rem;
+}

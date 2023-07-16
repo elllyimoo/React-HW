@@ -1,0 +1,46 @@
+.myButton {
+  padding: 0px 10px 10px;
+  margin: 0;
+
+  border: 0px;
+  border-radius: 3px;
+
+  text-align: center;
+  font-size: 0.9rem;
+  color: #000000;
+
+  &:hover {
+    background: #8f08dd !important;
+    color: #ffffff !important;
+    cursor: pointer !important;
+    font-size: 1rem;
+
+  }
+
+  &:active,
+  &:focus {
+    outline: none;
+  }
+
+}
+
+.myButton.modal-btn {
+  padding: 4px 15px;
+  margin: 0 20px 0 0;
+  background: #aaaaaa;
+}
+
+.myButton.nav-button {
+  margin: 15px 0;
+  padding: 0 0 10px 15px;
+  color: #ff0000;
+}
+
+.myButton.checkout-button {
+  margin-left: 20px;
+  padding: 7px 13px ;
+
+  &:hover {
+    background: #ffaf44 !important;
+  }
+}

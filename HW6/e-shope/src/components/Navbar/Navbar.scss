@@ -1,0 +1,19 @@
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+
+  list-style-type: none;
+  margin: 0;
+
+  &__item {
+    color: #e6a043;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 0 0 0 15px;
+
+    &:hover {
+      cursor: pointer;
+      color: #ffffff;
+    }
+  }
+}

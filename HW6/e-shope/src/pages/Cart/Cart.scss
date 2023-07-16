@@ -1,0 +1,25 @@
+.cart-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0 10px;
+  justify-content: space-between;
+
+  padding: 0;
+  background: #ffffff;
+}
+
+.nav-button-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  height: 40px;
+  margin: 20px 0 0;
+}
+
+.cart-title {
+  display: inline-block;
+  color: rgb(143, 8, 221);
+  position: relative;
+  top: -18px;
+}
